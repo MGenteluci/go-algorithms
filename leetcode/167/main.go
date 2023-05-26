@@ -1,6 +1,7 @@
 package main
 
 // 167. Two Sum II - Input Array Is Sorted
+// Time complexity: O(n)
 func twoSum(numbers []int, target int) []int {
 	ans := []int{}
 	l, r := 0, len(numbers)-1
