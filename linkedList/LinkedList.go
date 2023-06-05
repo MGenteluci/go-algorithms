@@ -1,4 +1,4 @@
-package main
+package linkedList
 
 type Node[T interface{}] struct {
 	Value T

@@ -1,4 +1,4 @@
-package main
+package linkedList
 
 import "fmt"
 
@@ -24,7 +24,6 @@ func (l *linkedList[T]) AddToStart(value T) {
 
 	if l.Head == nil {
 		l.Head = node
-		return
 	} else {
 		node.Next = l.Head
 		l.Head = node
